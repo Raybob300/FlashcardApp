@@ -20,4 +20,9 @@ public class FlashcardSet {
     public ArrayList<Flashcard> getAllCards() {
         return cards;
     }
+
+	public void listCards() {
+		// TODO Auto-generated method stub
+		
+	}
 }

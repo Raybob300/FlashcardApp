@@ -18,4 +18,9 @@ public class MultipleChoiceFlashcard extends Flashcard {
     public String toString() {
         return super.toString() + " | Choices: " + String.join(", ", choices);
     }
+
+	public List<String> getOptions() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }
