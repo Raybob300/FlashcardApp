@@ -1,8 +1,3 @@
-/**
- * 
- */
-/**
- * 
- */
-module FlashcardGUIApp {
+module flashcardapp {
+    requires java.desktop;
 }

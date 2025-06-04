@@ -3,11 +3,7 @@ package flashcardapp;
 import java.util.ArrayList;
 
 public class FlashcardSet {
-    private ArrayList<Flashcard> cards;
-
-    public FlashcardSet() {
-        cards = new ArrayList<>();
-    }
+    private ArrayList<Flashcard> cards = new ArrayList<>();
 
     public void addCard(Flashcard card) {
         cards.add(card);

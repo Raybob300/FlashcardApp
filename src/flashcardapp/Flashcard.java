@@ -1,8 +1,8 @@
 package flashcardapp;
 
 public class Flashcard {
-    protected String question;
-    protected String answer;
+    private String question;
+    private String answer;
 
     public Flashcard(String question, String answer) {
         this.question = question;
@@ -17,12 +17,8 @@ public class Flashcard {
         return answer;
     }
 
-    public String getType() {
-        return "Text Flashcard";
-    }
-
     @Override
     public String toString() {
-        return "[Text] Q: " + question + " | A: " + answer;
+        return "Q: " + question + " | A: " + answer;
     }
 }
