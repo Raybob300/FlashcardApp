@@ -67,7 +67,7 @@ public class Visual {
                 choicesLabel.setVisible(true);
                 choicesField.setVisible(true);
             }
-        });
+        }); //
 
         addButton.addActionListener(e -> {
             String question = questionField.getText().trim();
